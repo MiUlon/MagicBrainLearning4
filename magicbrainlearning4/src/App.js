@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SignIn from './Components/SignIn/SignIn';
 import Logo from './Components/Logo/Logo';
 import Rank from './Components/Rank/Rank';
+import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm';
 import './App.css';
 import ParticlesBg from 'particles-bg';
 
@@ -13,6 +14,7 @@ class App extends Component {
         <SignIn />
         <Logo />
         <Rank />
+        <ImageLinkForm />
       </div>
     )
   }

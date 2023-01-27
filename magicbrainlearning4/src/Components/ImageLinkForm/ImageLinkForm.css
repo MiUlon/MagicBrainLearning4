@@ -1,0 +1,21 @@
+.ImageLinkFormDesign {
+    font-weight: 600;
+}
+
+.ImageLinkFormDisplayFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ImageLinkFormMaxWidth {
+    max-width: 1000px;
+}
+
+.ImageLinkFormBackground {
+    background: linear-gradient(to left, rgb(140, 241, 145) 0%, rgb(115, 182, 250) 100%);
+}
+
+.ImageLinkFormBorder {
+    border-radius: 5px;
+}
