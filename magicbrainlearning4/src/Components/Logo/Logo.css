@@ -1,0 +1,11 @@
+.LogoMaxWidth {
+    max-width: 130px;
+}
+
+.LogoBackground {
+    background: linear-gradient(to left, rgb(140, 241, 145) 0%, rgb(115, 182, 250) 100%);
+}
+
+.LogoMarginLeft {
+    margin-left: 30px;
+}
