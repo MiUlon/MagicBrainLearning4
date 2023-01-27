@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  font-family: 'Courier', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgb(140, 241, 145) 0%, rgb(115, 182, 250) 100%);
+}

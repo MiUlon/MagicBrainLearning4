@@ -1,0 +1,18 @@
+.SignInalignToLeft {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SignInMaxWidth {
+    max-width: 170px;
+}
+
+.SignInDesign {
+    border: 1px solid black;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.SignInBackground {
+    background: linear-gradient(to left, rgb(140, 241, 145) 0%, rgb(115, 182, 250) 100%);
+}
