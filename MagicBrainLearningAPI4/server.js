@@ -63,9 +63,8 @@ app.post('/register', (req, res) => {
 });
     database.users.push({
         id: "3",
-        name: "Mindaugas3",
-        email: "Mindaugas3@gmail.com",
-        password: "Mindaugas3",
+        name: name,
+        email: email,
         entries: 0,
         joined: new Date()
     });
