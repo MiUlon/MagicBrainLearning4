@@ -111,7 +111,7 @@ class App extends Component {
               <DetectImage box={box} linkURL={linkURL}/>
             </div>
           : ( route === 'signin'
-                ? <SignInForm onRouteChange={this.onRouteChange} />
+                ? <SignInForm onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
                 : <Register onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
             )
         }
