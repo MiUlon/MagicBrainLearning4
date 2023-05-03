@@ -1,4 +1,8 @@
 export const handelSignin = (req, res, postgres, bcrypt) => {
+    const { email, password } = req.body;
+    if (!email || !password) {
+        return res.status(400).json('Incorrect form submition')
+    }
     postgres.select('email', 'hash').from('login')
         .where('email', '=', req.body.email)
         .then(data => {
